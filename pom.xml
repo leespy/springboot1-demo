@@ -11,6 +11,7 @@
     <name>springboot1-demo</name>
     <description>Demo project for Spring Boot 1.x</description>
 
+    <!-- 添加springboot的父类依赖，该项目便是springboot项目了 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -25,6 +26,7 @@
     </properties>
 
     <dependencies>
+        <!-- springboot web 支持依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,6 +39,7 @@
         </dependency>
     </dependencies>
 
+    <!-- springboot 编译插件 -->
     <build>
         <plugins>
             <plugin>
