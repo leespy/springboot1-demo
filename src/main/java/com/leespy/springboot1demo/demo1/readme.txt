@@ -1,5 +1,6 @@
-目的：Spring Boot基本配置
+目的：配置
 
+【Spring Boot基本配置】
 1>入口类
     1.1>Spring Boot通常有一个名为*Application的入口类，入口类里有一个main方法，这个就是标准的Java应用的入口方法。
     1.2>在main方法中使用SpringApplication.run，启动Spring Boot应用项目
@@ -103,3 +104,21 @@
         Activiti                |   activiti-spring-boot/spring-boot-starters
 
 6>使用xml配置
+    @ImportResource({"classpath:some-context.xml","classpath:another-context.xml"}) 引入xml配置
+    public class Springboot1DemoApplication {
+        ... ...
+    }
+
+【Spring Boot外部配置】
+1>命令行参数配置
+    java -jar xx.jar --server.port=9090
+
+2>常规属性配置
+    在Spring Boot里，我们只需在application.properties定义属性，直接使用@Value注入即可。
+    eg：Demo1Application.java
+
+3>基于properties的类型安全的配置
+    通过@ConfigurationProperties将properties属性和一个Bean及其属性关联，从而简化使用@Value的方式获取属性。
+    eg：Demo2Application.java
+    指定加载的配置文件（如果与默认配置文件application.properties中存在相同属性，则会以默认配置文件中的属性为准）
+    eg：Demo3Application.java
