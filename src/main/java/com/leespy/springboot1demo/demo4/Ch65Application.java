@@ -1,6 +1,4 @@
-/*
- * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
- */
+
 package com.leespy.springboot1demo.demo4;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +11,7 @@ import com.leespy.springbootstarterhello.HelloService;
 
 /**
  * Date 2018/12/7 9:53 AM
- * Author lijinlong02@baidu.com
+ * Author muse
  */
 @RestController
 @SpringBootApplication
