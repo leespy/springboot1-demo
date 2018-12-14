@@ -37,6 +37,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- 自定义的starter，用于自动配置HelloService bean -->
+        <dependency>
+            <groupId>com.leespy</groupId>
+            <artifactId>spring-boot-starter-hello</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <!-- springboot 编译插件 -->

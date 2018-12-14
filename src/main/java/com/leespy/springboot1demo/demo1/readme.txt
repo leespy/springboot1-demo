@@ -98,7 +98,7 @@
         Vaadin                  |   vaadin-spring-boot-starter
         Apache Camel            |   camel-spring-boot
         WRO4j                   |   spring-boot-autoconfigure-wro4j
-        Spring Batch (高级用法)   |   spring-boot-starter-batch-web
+        Spring Batch (Jade4J)   |   spring-boot-starter-batch-web
         HDIV                    |   spring-boot-starter-hdiv
         Jade Templates (Jade4J) |   spring-boot-starter-jade4j
         Activiti                |   activiti-spring-boot/spring-boot-starters
